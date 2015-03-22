@@ -8,7 +8,7 @@ SQL-logger middleware for [Lack](https://github.com/fukamachi/lack) with [DBI](h
   *app*)
 
 ;; When you execute SQL with connection of DBI,
-;; => SELECT * FROM `users` WHERE (`id` = 1) LIMIT 1
+;; => Executed: SELECT * FROM `users` WHERE (`id` = 1) LIMIT 1
 ```
 
 ## Author
