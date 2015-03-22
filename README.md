@@ -1,4 +1,4 @@
-# Lack-Middleware-Sql-Logger
+# Lack-Middleware-SQL-Logger
 SQL-logger middleware for [Lack](https://github.com/fukamachi/lack) with [DBI](https://github.com/fukamachi/cl-dbi).
 
 ## Usage
