@@ -9,13 +9,13 @@
 
 (defsystem lack-middleware-sql-logger
   :version "0.1"
-  :author ""
-  :license ""
+  :author "Rudolph-Miller"
+  :license "MIT"
   :depends-on (:dbi)
   :components ((:module "src"
                 :components
                 ((:file "lack-middleware-sql-logger"))))
-  :description ""
+  :description "SQL-logger middleware for Lack with DBI."
   :long-description
   #.(with-open-file (stream (merge-pathnames
                              #p"README.md"

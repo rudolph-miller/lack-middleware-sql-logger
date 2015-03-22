@@ -8,8 +8,8 @@
 (in-package :lack-middleware-sql-logger-test-asd)
 
 (defsystem lack-middleware-sql-logger-test
-  :author ""
-  :license ""
+  :author "Rudolph-Miller"
+  :license "MIT"
   :depends-on (:lack-middleware-sql-logger
                :prove)
   :components ((:module "t"
